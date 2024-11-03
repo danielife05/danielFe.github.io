@@ -280,6 +280,7 @@ defaults:
 
 sass:
   style: compressed
+  implementation: Sass::Embedded
 
 # -----------------------------------------------------------------------------
 # Jekyll Minifier

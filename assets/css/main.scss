@@ -3,6 +3,12 @@
 ---
 @charset "utf-8";
 
+// Import Sass modules
+@use 'sass:map';
+@use 'sass:math';
+@use 'sass:meta';
+@use 'sass:color'; // Add this line
+
 // Dimensions
 $max-content-width: {{ site.max_width }};
 
