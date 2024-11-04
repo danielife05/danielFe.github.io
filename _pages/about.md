@@ -1,21 +1,20 @@
 ---
 layout: about
-title: "Sobre mí"
+title: "About Me"
 permalink: /about/
 profile:
   align: left
   image: prof_pic.jpg
   image_circular: false
   more_info: |
-    <p>Facultad de Ingeniería en Sistemas</p>
     <p>Quito, Ecuador</p>
 social: true # incluye iconos de redes sociales al final de la página
 ---
 
-## Sobre mí
+## About Me
 
-Actualmente soy estudiante de cuarto semestre en la carrera de Ingeniería en Sistemas de la Escuela Politécnica Nacional. Mis áreas de interés incluyen el desarrollo de software, la creación de aplicaciones en Java, la gestión de bases de datos y DevOps.
+I am currently a fourth semester student of Systems Engineering at the Escuela Politécnica Nacional. My areas of interest include software development, Java application development, database management and DevOps.
 
-Estoy aprendiendo Python y cuento con algunas certificaciones en el área de informática.
+I am learning Python and I have some certifications in the area of computer science.
 
-Fuera del ámbito de la informática, me interesa el fitness, construir un cuerpo estético y la salud en general.
+Outside of IT, I am interested in fitness, building an aesthetic body and general health.

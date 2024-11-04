@@ -1,30 +1,28 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: Jobs with more relevance.
+description: A collection of my projects.
 nav: true
 nav_order: 3
 horizontal: false
 ---
 
-<!-- pages/projects.md -->
-<div class="Projects">
-  <!-- Mostrar solo el proyecto específico -->
-  {% assign project = site.projects | where: "title", "Proyecto Arquitectura de Computadores" | first %}
-  {% if project %}
-    {% if page.horizontal %}
-      <div class="container">
-        <div class="row row-cols-1 row-cols-md-2">
-          {% include projects_horizontal.liquid project=project %}
+<!-- Projects Page -->
+<h2>GitHub Repositories</h2>
+<div class="container">
+  <div class="row row-cols-1 row-cols-md-3">
+    {% for repo in site.data.repositories.repositories %}
+      <div class="col mb-4">
+        <div class="card h-100">
+          <img src="{{ repo.image }}" class="card-img-top" alt="{{ repo.name }}">
+          <div class="card-body">
+            <h5 class="card-title">{{ repo.name }}</h5>
+            <p class="card-text">{{ repo.description }}</p>
+            <a href="{{ repo.url }}" class="btn btn-primary" target="_blank">View Repository</a>
+          </div>
         </div>
       </div>
-    {% else %}
-      <div class="row row-cols-1 row-cols-md-3">
-        {% include projects.liquid project=project %}
-      </div>
-    {% endif %}
-  {% else %}
-    <p>No projects found.</p>
-  {% endif %}
+    {% endfor %}
+  </div>
 </div>

@@ -1,5 +1,10 @@
-github_users:
-  - danielife05
-
-github_repos:
-  - Proyecto-Arquitectura-de-Computadores
+repositories:
+  - name: "Clima-Toronto"
+    url: "https://github.com/danielife05/Clima-Toronto"
+    description: "Aplicación del clima para Toronto usando integración de API."
+    image: "/assets/img/toronto.jpg" # Imagen para el repositorio
+  
+  - name: "IEEE754"
+    url: "https://github.com/danielife05/IEEE754"
+    description: "Implementación de calculadora de punto flotante IEEE 754."
+    image: "/assets/img/ieee.png" # Imagen para el repositorio
