@@ -1,22 +1,20 @@
 ---
 layout: page
-title: Certificacions
+title: Certifications
 permalink: /cert/
 description: Certificates of completed courses(for now).
 nav: true
 nav_order: 4
 ---
 
-## Certificaciones
-
 <div class="gallery">
   <div class="gallery-item">
-    <img src="{{ '/assets/img/py1.png' | relative_url }}" alt="Certificación Python Básico" width="204" height="auto" />
-    <p>Python Básico</p>
+    <img src="{{ '/assets/img/py1.png' | relative_url }}" alt="Basic Python" width="204" height="auto" />
+    <p>Basic Python</p>
   </div>
   <div class="gallery-item">
-    <img src="{{ '/assets/img/py2.png' | relative_url }}" alt="Certificación Python Intermedio-Avanzado" width="204" height="auto" />
-    <p>Python Intermedio-Avanzado</p>
+    <img src="{{ '/assets/img/py2.png' | relative_url }}" alt="Intermediate-Advanced Python" width="204" height="auto" />
+    <p>Intermediate-Advanced Python</p>
   </div>
 </div>
 
