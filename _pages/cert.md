@@ -16,6 +16,8 @@ nav_order: 4
     <img src="{{ '/assets/img/py2.png' | relative_url }}" alt="Intermediate-Advanced Python" width="204" height="auto" />
     <p>Intermediate-Advanced Python</p>
   </div>
+<div class="gallery-item">
+  <a href="{{ '/assets/pdf/certIngles.pdf' | relative_url }}" target="_blank">English B1 Certification (PDF)</a>
 </div>
 
 <style>
